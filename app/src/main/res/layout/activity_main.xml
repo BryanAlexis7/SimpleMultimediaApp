@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- ImageView para la imagen -->
+
+    <!-- Botón para animar la imagen -->
+
+    <!-- Botón para reproducir audio -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="232dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/tomyjerry1" />
+
+    <!-- VideoView para reproducir video -->
+
+    <!-- Botón para reproducir video -->
+
+    <Button
+        android:id="@+id/animateButton"
+        android:layout_width="122dp"
+        android:layout_height="71dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-125dp"
+        android:layout_marginEnd="58dp"
+        android:text="Animacion De Imagen" />
+
+    <VideoView
+        android:id="@+id/myVideoView"
+        android:layout_width="290dp"
+        android:layout_height="286dp"
+        android:layout_below="@id/playAudioButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="107dp" />
+
+    <Button
+        android:id="@+id/playVideoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="253dp"
+        android:layout_marginEnd="245dp"
+        android:text="Reproducir   Video" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="429dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/playAudioButton"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="47dp"
+        android:text="Reproducir Audio" />
+
+</RelativeLayout>
